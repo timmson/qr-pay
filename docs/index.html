@@ -177,7 +177,18 @@
 			.catch(e => setResult(fileQrResult, { data: e || 'No QR code found.' }));
 	});
 </script>
+<script type="application/javascript">
 
+	window.addEventListener("load", async () => {
+		if ("serviceWorker" in navigator) {
+			try {
+				await navigator.serviceWorker.register("sw.js");
+			} catch (e) {
+				console.log("Service worker register fail");
+			}
+		}
+	});
+</script>
 <style>
     div {
         margin-bottom: 16px;

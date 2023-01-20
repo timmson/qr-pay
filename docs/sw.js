@@ -2,9 +2,10 @@ const version = "v1";
 
 const assets = [
 	"index.html",
-	"index.js",
-	"index.css",
-	"beep.wav"
+	"qr-scanner.min.js",
+	"qr-scanner-worker.min.js",
+	"slide-up-widget.css",
+	"slide-up-widget.js"
 ];
 
 self.addEventListener("install", async () => {
