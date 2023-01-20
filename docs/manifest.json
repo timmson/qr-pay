@@ -1,8 +1,8 @@
 {
-  "name": "Facilitation Timer",
-  "short_name": "Timer",
+  "name": "QR Pay",
+  "short_name": "QR Pay",
   "theme_color": "#00cc00",
-  "background_color": "#000000",
+  "background_color": "#ffffff",
   "display": "standalone",
   "start_url": ".",
   "icons": [
